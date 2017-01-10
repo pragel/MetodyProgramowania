@@ -54,8 +54,9 @@ public:
     friend ostream& operator << (ostream& os, const robotr1& r){
     	for(unsigned i = 0; i < r.roz; i++){
     		os << "Operacja robotr1 " << i <<" "<< r.wsk[i] << endl;
-    		return os;
+    	
 		}
+	return os;
 	}
 }; 
 
